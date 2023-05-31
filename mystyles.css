@@ -1,0 +1,64 @@
+.btn-container {
+    background-color: #eee;
+}
+
+.movie-btn {
+    margin-right: .5rem;
+    background-color: transparent;
+    font-weight: semibold;
+    color: #444;
+    font-size: 1rem;
+    padding: 1rem 1.5rem;
+    /* aeroventilas nuestro botón */
+    border: 2px solid #eee;
+    /* nos ayudará con el efecto */
+    border-radius: .5rem;
+    cursor: pointer;
+    transition: all 1s ease;
+    /* todas las trancisiones durarán un segundo */
+    box-shadow: .5em .5rem 1rem #ccc,
+        -.5em -.5rem 1rem #fff
+        /* desplazar x,  y, blur radius, color */
+}
+
+.movie-btn:hover {
+    box-shadow: .5em .5rem 1rem #fff, -.5em -.5rem 1rem #ccc
+}
+
+.movie-btn:active {
+    box-shadow: inset .2rem .2rem 1rem #fff, inset -.2rem -.2rem 1rem #ccc
+}
+
+
+.movie-list {
+    margin: 0 -15px;
+}
+
+.movie-list .movie {
+    width: 25%;
+    padding: 0 15px;
+    float: left;
+    margin-bottom: 30px;
+}
+
+@media screen and (min-width: 991px) {
+    .movie-list .movie:nth-child(4n+1) {
+        clear: both;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .movie-list .movie {
+        width: 50%;
+    }
+
+    .movie-list .movie:nth-child(4n+1) {
+        clear: none;
+    }
+
+    .movie-list .movie:nth-child(2n+1) {
+        clear: both;
+    }
+}
+
+/* ------------------------------------------------------------------------------------------------------------------- */

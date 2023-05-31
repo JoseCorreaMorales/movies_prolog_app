@@ -16,7 +16,7 @@
 					</div>
 
 					<div class="filters">
-						<select name="gender-list" id="gender-list" placeholder="Choose Category">
+						<!-- <select name="gender-list" id="gender-list" placeholder="Choose Category">
 							<option value="#">Action</option>
 							<option value="#">Drama</option>
 							<option value="#">Fantasy</option>
@@ -27,14 +27,41 @@
 							<option value="#">2012</option>
 							<option value="#">2013</option>
 							<option value="#">2014</option>
-						</select>
-						<button id="gender-select" onclick="getMoviesByGender()" value="animacion">animacion</button>
+						</select> -->
+
+						<!-- ------------------------------------ANIMACION---------------------------------------------- -->
+						<div class="movie-container">
+							<button class="movie-btn" id="gender-select"
+							 onclick="getMoviesByGender()" value="animacion">Animation</button>
+
+							<button class="movie-btn" id="gender-select"
+							 onclick="getMoviesByGender()" value="thriller">Thriller</button>
+
+							<button class="movie-btn" id="gender-select"
+							 onclick="getMoviesByGender()" value="X">GENERO X</button>
+
+							<button class="movie-btn" id="gender-select"
+							 onclick="getMoviesByGender()" value="X">GENERO X</button>
+
+							<button class="movie-btn" id="gender-select"
+							 onclick="getMoviesByGender()" value="X">GENERO X</button>
+
+							<button class="movie-btn" id="gender-select"
+							 onclick="getMoviesByGender()" value="X">GENERO X</button>
+
+							<button class="movie-btn" id="gender-select"
+							 onclick="getMoviesByGender()" value="X">GENERO X</button>
+
+							<button class="movie-btn" id="gender-select"
+							 onclick="getMoviesByGender()" value="X">GENERO X</button>
+						</div>
+
 					</div>
 
 					<!-- <div class="movie-list"> -->
 					<div id="movie-list">
 
-					</div> 
+					</div>
 					<!-- <div class="movie-list">
 							<div class="movie">
 								<figure class="movie-poster"><img src="dummy/thumb-3.jpg" alt="#"></figure>

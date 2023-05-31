@@ -131,6 +131,8 @@
 			</main>
 			<?php include 'php/footer.php'; ?>
 
+		<img  height="" width="" src="" alt="" srcset="">
+
 		</div>
 		<!-- Default snippet for navigation -->
 		<script src="js/data.js"></script>

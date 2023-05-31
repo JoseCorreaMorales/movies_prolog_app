@@ -1,5 +1,6 @@
 function getMoviesByGender() {
 
+   
     var selectElement = document.getElementById("gender-select");
     var selectedValue = selectElement.value;
     // Enviar la consulta al servidor PHP
@@ -32,17 +33,19 @@ function getMoviesByGender() {
     //var movielist = document.getElementsById("movie-list");
     var m;
 
+   
+
     for (var i = 0; i < movies.length; i++) {
      // console.log(movies[i]);
       m += `
       <div class="movie">
-        <figure class="movie-poster"><img src="dummy/thumb-3.jpg" alt="#"></figure>
-        <div class="movie-title"><a href="single.html">${movies[i]['title']}</a></div>
+        <figure class="movie-poster"><img height="300px" width="300px" src="${movies[i]['image']}" alt="#"></figure>
+        <div class="movie-title"><a href="single.php">${movies[i]['title']}</a></div>
         <p>${movies[i]['description']}</p>
       </div>
   `;
   //console.log(movielist.innerHTML);
-  
+  console.log(movies[i]['image']);
 }
 document.getElementById('movie-list').innerHTML = m;
     //console.log(movies);
@@ -62,22 +65,23 @@ document.getElementById('movie-list').innerHTML = m;
   function convertResponseToJSON(responseText) {
     var lines = responseText.split("\n");
     var movies = [];
-   for (var i = 0; i < lines.length-9; i+=9) {
+   for (var i = 0; i < lines.length-10; i+=10) {
     var movie = {
-      genre: lines[i + 0],
-      title: lines[i + 1],
-      cast: lines[i + 2],
-      description: lines[i + 3],
-      duration: lines[i + 4],
-      language: lines[i + 5],
-      year: lines[i + 6],
-      website: lines[i + 7],
-      image: lines[i + 8]
+      id: lines[i + 0],
+      genre: lines[i + 1],
+      title: lines[i + 2],
+      cast: lines[i + 3],
+      description: lines[i + 4],
+      duration: lines[i + 5],
+      language: lines[i + 6],
+      year: lines[i + 7],
+      website: lines[i + 8],
+      image: lines[i + 9]
     };
     movies.push(movie);
    }
 
     //var movies = [movie];
-
+   console.log(movies);
     return movies;
   }
