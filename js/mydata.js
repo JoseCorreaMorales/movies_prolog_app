@@ -1,32 +1,23 @@
-function getMoviesByGender() {
+function getMoviesByGender(selectedValue) {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      var responseJSON = convertResponseToJSON(this.responseText);
+      createCard(responseJSON);
+    }
+  };
+  xhttp.open("GET", "js/data.php?selectedValue=" + selectedValue, true);
+  xhttp.send();
+}
 
-   
-    var selectElement = document.getElementById("gender-select");
-    var selectedValue = selectElement.value;
-    // Enviar la consulta al servidor PHP
-    var xhttp = new XMLHttpRequest();
-    xhttp.onreadystatechange = function () {
-      if (this.readyState == 4 && this.status == 200) {
-  
-        // console.log(this.responseText);
-        // Convertir la respuesta en un objeto JSON
-        //var response = JSON.parse(this.responseText);
-        //createCard(response.results);
-        /* console.log(this.responseText); */
-        var responseJSON = convertResponseToJSON(this.responseText);
-  
-        //console.log(responseJSON);
-        
-        //convertResponseToJSON(response.results);
-        createCard(responseJSON);
-      
-  
-      }
-    };
-    //xhttp.open("GET", "program.php?consulta=" + consulta, true);
-    xhttp.open("GET", "js/data.php?selectedValue=" + selectedValue, true);
-    xhttp.send();
-  }
+var buttons = document.querySelectorAll(".gender-btn");
+buttons.forEach(function(button) {
+  button.addEventListener("click", function() {
+    var selectedValue = this.getAttribute("value");
+    getMoviesByGender(selectedValue);
+  });
+});
+
   
   //crear todas las cards
   function createCard(movies) {
@@ -37,11 +28,14 @@ function getMoviesByGender() {
 
     for (var i = 0; i < movies.length; i++) {
      // console.log(movies[i]);
+     //
       m += `
       <div class="movie">
-        <figure class="movie-poster"><img height="300px" width="300px" src="${movies[i]['image']}" alt="#"></figure>
+        <figure class="movie-poster"><img height="250px" width="250px" src="${movies[i]['image']}" alt="#"></figure>
         <div class="movie-title"><a href="single.php">${movies[i]['title']}</a></div>
         <p>${movies[i]['description']}</p>
+        <a class="sell-rent-btn" href="single.php">Comprar</a>
+        <a class="sell-rent-btn" href="single.php">Rentar</a>
       </div>
   `;
   //console.log(movielist.innerHTML);

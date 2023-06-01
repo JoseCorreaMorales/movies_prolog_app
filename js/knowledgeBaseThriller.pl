@@ -18,7 +18,7 @@
     % Enlace (donde puedo verla)
     "https://www.primevideo.com/detail/El-Sexto-Sentido/0G9SO4O0U3110GKI50S4CJXY6B",
     % Imagen (URL de la portada)
-    "https://pics.filmaffinity.com/El_sexto_sentido-687282519-mmed.jpg"
+    "https://www.ecartelera.com/carteles/5400/5409/001_p.jpg"
      ).
 
 
@@ -42,7 +42,7 @@
     % Enlace (donde puedo verla)
     "https://www.amazon.es/gp/video/detail/B00I3MXQVO/ref=atv_dp_share_cu_r",
     % Imagen (URL de la portada)
-    "https://pics.filmaffinity.com/el_curioso_caso_de_benjamin_button-424455160-large.jpg"
+    "https://www.funeralnatural.net/sites/default/files/pelicula/imagen/el_curioso_caso_de_benjamin.jpg"
      ).
 
     pelicula(
@@ -65,7 +65,7 @@
     % Enlace (donde puedo verla)
     "https://www.netflix.com/title/880039",
     % Imagen (URL de la portada)
-    "https://pics.filmaffinity.com/pulp_fiction-842740996-large.jpg"
+    "https://static.posters.cz/image/1300/posters/pulp-fiction-cover-i1288.jpg"
     ).
 
     pelicula(
@@ -88,7 +88,7 @@
     % Enlace (donde puedo verla)
     "https://www.amazon.es/El-Silencio-los-Corderos/dp/B00GYLR452",
     % Imagen (URL de la portada)
-    "https://pics.filmaffinity.com/the_silence_of_the_lambs-849231901-large.jpg"
+    "https://m.media-amazon.com/images/M/MV5BMWE3NTE2YzgtNjUyYy00Y2NmLTljNWMtNjY4MjZhYmMzM2M4XkEyXkFqcGdeQXVyMTEyMDcwNw@@._V1_.jpg"
      ).
 
 
@@ -112,7 +112,7 @@
     % Enlace (donde puedo verla)
     "https://www.hbo.com/movies/gone-girl",
     % Imagen (URL de la portada)
-    "https://pics.filmaffinity.com/Gone_Girl-764545282-large.jpg"
+    "https://cdnb.artstation.com/p/assets/images/images/027/498/209/large/amin-lashgari-02-gone-girl.jpg?1591714763"
     ).
 
     pelicula(
@@ -135,7 +135,7 @@
     % Enlace (donde puedo verla)
     "https://www.netflix.com/title/70005379",
     % Imagen (URL de la portada)
-    "https://pics.filmaffinity.com/the_shawshank_redemption-623666152-large.jpg"
+    "https://m.media-amazon.com/images/M/MV5BNDE3ODcxYzMtY2YzZC00NmNlLWJiNDMtZDViZWM2MzIxZDYwXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_FMjpg_UX1000_.jpg"
     ).
 
     pelicula(
@@ -158,7 +158,7 @@
     % Enlace (donde puedo verla)
     "https://www.hbo.com/movies/her",
     % Imagen (URL de la portada)
-    "https://pics.filmaffinity.com/her-572898239-large.jpg"
+    "https://scifiagenda.com/img/posters/her.jpg"
     ).
 
     pelicula(
@@ -181,7 +181,7 @@
     % Enlace (donde puedo verla)
     "https://www.netflix.com/title/80095241",
     % Imagen (URL de la portada)
-    "https://pics.filmaffinity.com/La_La_Land-665012560-large.jpg"
+    "https://m.media-amazon.com/images/I/51si8ItHWrL._AC_UF894,1000_QL80_.jpg"
     ).
 
 
@@ -205,7 +205,7 @@
     % Enlace (donde puedo verla)
     "https://www.netflix.com/title/238413",
     % Imagen (URL de la portada)
-    "https://pics.filmaffinity.com/The_Godfather-599073837-large.jpg"
+    "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg"
     ).
 
     pelicula(
@@ -228,7 +228,7 @@
     % Enlace (donde puedo verla)
     "https://www.netflix.com/title/70305903",
     % Imagen (URL de la portada)
-    "https://pics.filmaffinity.com/Interstellar-106432314-large.jpg"
+    "https://w0.peakpx.com/wallpaper/968/682/HD-wallpaper-interstellar-movie-thumbnail.jpg"
      ).
 
 %------------------------------------------------------------RULES-----------------------------------------------------%

@@ -31,29 +31,29 @@
 
 						<!-- ------------------------------------ANIMACION---------------------------------------------- -->
 						<div class="movie-container">
-							<button class="movie-btn" id="gender-select"
-							 onclick="getMoviesByGender()" value="animacion">Animation</button>
+							<button class="movie-btn gender-btn" id="gender-select"
+							 onclick="getMoviesByGender('animacion')">Animation</button>
 
-							<button class="movie-btn" id="gender-select"
-							 onclick="getMoviesByGender()" value="thriller">Thriller</button>
+							<button class="movie-btn gender-btn" id="gender-select"
+							 onclick="getMoviesByGender('thriller')">Thriller</button>
 
-							<button class="movie-btn" id="gender-select"
-							 onclick="getMoviesByGender()" value="X">GENERO X</button>
+							<button class="movie-btn gender-btn" id="gender-select"
+							 onclick="getMoviesByGender('ficcion')">Ciencia ficcion</button>
 
-							<button class="movie-btn" id="gender-select"
-							 onclick="getMoviesByGender()" value="X">GENERO X</button>
+							<button class="movie-btn gender-btn" id="gender-select"
+							 onclick="getMoviesByGender('terror')">Terror</button>
 
-							<button class="movie-btn" id="gender-select"
-							 onclick="getMoviesByGender()" value="X">GENERO X</button>
+							<button class="movie-btn gender-btn" id="gender-select"
+							 onclick="getMoviesByGender('romance')">Romance</button>
 
-							<button class="movie-btn" id="gender-select"
-							 onclick="getMoviesByGender()" value="X">GENERO X</button>
+							<button class="movie-btn gender-btn" id="gender-select"
+							 onclick="getMoviesByGender('comedia')">Comedia</button>
 
-							<button class="movie-btn" id="gender-select"
-							 onclick="getMoviesByGender()" value="X">GENERO X</button>
+							<button class="movie-btn gender-btn" id="gender-select"
+							 onclick="getMoviesByGender('accion')">Accion</button>
 
-							<button class="movie-btn" id="gender-select"
-							 onclick="getMoviesByGender()" value="X">GENERO X</button>
+							<button class="movie-btn gender-btn" id="gender-select"
+							 onclick="getMoviesByGender('familiar')">Familiar</button>
 						</div>
 
 					</div>
