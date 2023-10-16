@@ -27,6 +27,9 @@ Este proyecto es un sistema de recomendación de películas que permite a los us
 * **Interfaz de Usuario Dinámica**: La información de la película se muestra dinámicamente en la página web, creando una tarjeta para cada película con detalles como título, descripción e imágenes.
 
 
+## Template 
+* **HTML-JS-CSS Template:** [Movie Recommendation System](https://www.themezy.com/free-website-templates/10-movie-reviews-responsive-template)
+
 ## Configuración
 * **Configuración del Servidor:**
 
@@ -41,4 +44,6 @@ Este proyecto es un sistema de recomendación de películas que permite a los us
 * **data.php:** Archivo PHP que maneja las solicitudes de datos de películas basadas en géneros seleccionados.
 
 * **knowledgeBaseAnimation.pl, knowledgeBaseThriller.pl, knowledgeBaseFiccion.pl etc:** Archivos de base de conocimientos Prolog que contienen información sobre películas.
+
+
 
