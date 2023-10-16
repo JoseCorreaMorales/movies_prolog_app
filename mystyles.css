@@ -1,13 +1,55 @@
-
+/* 
 .movie-list{
     display: flex !important;
 }
 
 .movie{
     margin-bottom: 5rem !important;
-    /* width: 25%; */
-    flex-grow: 2 !important;
-}
+    flex-wrap: wrap !important;
+} */
+/* Estilos para la cuadrícula de películas */
+/* Estilos generales para las tarjetas de películas */
+/* Estilos para la cuadrícula de películas */
+.movie-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px; /* Espacio entre las tarjetas */
+  }
+  
+  .movie {
+    flex-basis: calc(25% - 20px); /* 4 columnas por fila con espacio entre ellas */
+    box-sizing: border-box;
+    background-color: #f9f9f9; /* Color de fondo de las tarjetas */
+    border: 1px solid #ddd; /* Borde de las tarjetas */
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s;
+  }
+  
+  .movie:hover {
+    transform: scale(1.05); /* Efecto de escala al pasar el cursor por encima */
+  }
+  
+  .movie-poster img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Estilos para hacer las tarjetas responsivas */
+  @media (max-width: 768px) {
+    .movie {
+      flex-basis: calc(50% - 20px); /* 2 columnas por fila en dispositivos más pequeños */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .movie {
+      flex-basis: 100%; /* Una columna completa en dispositivos aún más pequeños */
+    }
+  }
+  
+  
 
 .btn-container {
     background-color: #eee;
